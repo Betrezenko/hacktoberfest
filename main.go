@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
-var dogName string = "Sheldun"
+var (
+	dogName string = "Sheldun"
+	catName string = "Doris"
+)
 
 func main() {
 	frst()
@@ -14,5 +17,5 @@ func frst() {
 }
 
 func scnd() {
-	fmt.Println("My friend's dog", dogName, "is awesome!")
+	fmt.Println("My friend's cat", catName, "is awesome!")
 }
